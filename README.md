@@ -5,7 +5,7 @@ This tool automates and facilitates an [AES CBC BitFlip attack](https://vozec.fr
 ## Usage:
 
 ```bash
-python3 aes_flipper.py -p 'plaintext' -f 'plaintext spotted' -c 'ciphertext' -e 'encoding of the ciphertext'
+python3 AES-Flipper.py -p 'plaintext' -f 'plaintext spotted' -c 'ciphertext' -e 'encoding of the ciphertext'
 ```
 
 ### Example :
