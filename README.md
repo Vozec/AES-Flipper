@@ -12,8 +12,8 @@ python3 aes_flipper.py -p 'plaintext' -f 'plaintext spotted' -c 'ciphertext' -e 
 ```bash
 python3 AES-Flipper.py \
 	-p 'username=AAAAAAAAAAAAAAAAAAAAAAA&admin=false&time=1653559752.826288' \
-  -f 'username=AAAAAAAAAAAAAAAAAAAAAAA&admin=true&ttime=1653559752.826288'
-  -c 2db5fd2622fe952ff6e148fbe13eaa2ff26b2d4400ffe86c85fc13905fcf8f7525985cdad9e8275a0c498dac8ed1c02539057a6bc41035e7273ba3354b1caaa79b3f1d66676045ab849f628cc2d18959473beb8523cb6fb8610497f172748b40 \
+	-f 'username=AAAAAAAAAAAAAAAAAAAAAAA&admin=true&ttime=1653559752.826288'
+	-c 2db5fd2622fe952ff6e148fbe13eaa2ff26b2d4400ffe86c85fc13905fcf8f7525985cdad9e8275a0c498dac8ed1c02539057a6bc41035e7273ba3354b1caaa79b3f1d66676045ab849f628cc2d18959473beb8523cb6fb8610497f172748b40 \
 	-e hex \
 ```
 ![Alt text](./img/example1.png)
@@ -24,6 +24,9 @@ python3 AES-Flipper.py \
 - Forge Flipped ciphertext
 - Alert if a flip is impossible: 2 consecutives blocs
 ![Alt text](./img/example2.png)
+- Specify if The first 16 bytes are the IV
+- Specify the encoding of the ciphertext , reflected for the output
+
 
 ## Help:
 ```bash
