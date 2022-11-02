@@ -16,7 +16,7 @@ def parse_args():
 	parser.add_argument("-f","--flipped",dest="flipped",type=str,required=True, help="Flipped Plaintext")
 	parser.add_argument("-c","--ciphertext",dest="cipher",type=str,required=True, help="CipherText")
 	parser.add_argument("-e","--encoding",dest="encoding",type=str,choices=['base64', 'hex','base64&hex','hex&base64'],required=True,default='base64', help="CipherText Encoding")
-	parser.add_argument("-i","--iv",dest="iv",action='store_true',default=True, help="Firsts Bytes are iv")
+	parser.add_argument("-i","--iv",dest="iv",action='store_true',default=False, help="Firsts Bytes are iv")
 	return parser.parse_args()
 
 def header():
