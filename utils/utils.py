@@ -6,7 +6,7 @@
 
 import argparse
 from binascii import unhexlify,hexlify
-from base64   import b64decode
+from base64   import b64decode,b64encode
 
 from utils.logger import logger
 
