@@ -81,7 +81,7 @@ class Aesflipper:
 
 def logger(message, context=None):
     all_context = {
-        'progress': '\033[95m²',
+        'progress': '\033[95m',
         'info': '\033[93m',
         'flag': '\033[92m',
         'error': '\033[91m',
